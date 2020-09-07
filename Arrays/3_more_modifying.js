@@ -1,3 +1,5 @@
+//concat, includes, indexOf, reverse, join
+
 //Combines arrays
 //Ktore jest dodowane do ktorego ma znaczenie
 const fruits = [ 'apple', 'banana' ];
@@ -16,7 +18,7 @@ console.log(nestedArray, 'Po dodaniu "5" na pozycje 0');
 
 
 
-console.log('----------------Finding values------------------');
+console.log('\n----------------Finding values------------------');
 //Finding and checking value in arrays "includes" and "indexOf"
 let ingridients = [ 'water', 'milk', 'two eggs', 'sugar', 'oil', 'flour', 'butter' ];
 console.log(ingridients.includes('milk'));
@@ -32,3 +34,15 @@ console.log(
 	ingridients.indexOf('butter') !== -1,
 	'w tym przypadku sprawdza czy butter wystepuje, ale .includes robi to samo wiec uzywamy includes'
 );
+
+
+// .reverse Reverses array
+
+let books = ['harry', 'potter', 'szklany', 'tron', 'dwor', 'cierni', 'roz']
+console.log(books)
+console.log(books.reverse())
+
+// .join Turns the array into a string // w nawiasie podajemy, jak maja byc oddzielone wartosci z tablicy
+console.log(books.join())
+console.log(books.join("."))
+console.log(books.join(" "))

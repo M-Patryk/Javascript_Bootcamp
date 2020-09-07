@@ -1,3 +1,5 @@
+//push, pop, shift, unshift
+
 let shoppingList = ['cheddar cheese', 'banana', '2% milk']
 console.log(shoppingList, 'prints created array')
 
