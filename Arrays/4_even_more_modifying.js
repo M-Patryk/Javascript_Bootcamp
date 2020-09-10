@@ -16,6 +16,7 @@ console.log(animals);
 animals.splice(1, 0, 'octopus', 'snake');
 console.log(animals, 'this is after adding octopus and snake');
 
+//splice
 // now removing snake ["shark", "octopus", "snake", "salmon", "prawn", "tortoise", "giraffe", "rhino"]
 animals.splice(2, 1);
 console.log(animals);

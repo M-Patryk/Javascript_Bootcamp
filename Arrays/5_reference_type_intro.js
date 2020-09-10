@@ -29,8 +29,9 @@ console.log(otherArray, 'zmienna "otherArray" po zmianie "array"');
 //OPROCZ wskazywania tej zmiennej dla tablicy na inna zmienna, czyli
 const tablica = [ 'mleko' ];
 tablica.push('ser'); //
-tablica.indexOf('mleko'); // Te trzy linijki sa od tego zeby znalezc element 'mleko' w tablicy i go usunac
-console.log(tablica.splice(0, 1)); //
+console.log(tablica);
+console.log(tablica.indexOf('mleko'));  // Te trzy linijki sa od tego zeby znalezc element 'mleko' w tablicy i go usunac
+tablica.splice(0, 1);
 console.log(tablica); // normalnie dodajemy i odejmujemy
 
 //const tablica = ['mleko', 'ser'] //ALE JUZ PRZYPISAC JA JAKBY NOWA ZMIENNA JUZ NIE MOZEMY!!!
