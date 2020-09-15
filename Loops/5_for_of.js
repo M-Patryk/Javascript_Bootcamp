@@ -1,0 +1,1 @@
+// Nice and easy way of iterating over arrays
