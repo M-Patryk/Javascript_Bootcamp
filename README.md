@@ -5,3 +5,5 @@ Here is the link: https://www.udemy.com/course/javascript-beginners-complete-tut
 
 Those are fundamentals i learnt from the course.
 I actually after some time started solving Kata's from Code Wars and finding out about available funcions and stuff.
+
+I started learning JS 3 September 2020
