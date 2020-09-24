@@ -1,5 +1,15 @@
-// The for...of statement creates a loop iterating over iterable objects
+//W tablicy printuje elementy
+//const array1 = ['a', 'b', 'c'];
+//
+//for (const element of array1) {
+//  console.log(element);
+// }
+//
+// expected output: "a"
+// expected output: "b"
+// expected output: "c"
 // Way of iterating over arrays
+
 const movieRevievs = {
 	Mars    : 7.2,
 	Mercury : 2,
