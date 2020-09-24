@@ -1,3 +1,5 @@
+// The for...of statement creates a loop iterating over iterable objects
+// Way of iterating over arrays
 const movieRevievs = {
 	Mars    : 7.2,
 	Mercury : 2,
