@@ -12,5 +12,6 @@ function findNumber(number) {
 		}
 	}
 
-	return checkingForSolution(1, '1');
+	return checkingForSolution(1, '1') || 'Sorry, could not find an algorithm! Try other number'
 }
+console.log(findNumber(35))
