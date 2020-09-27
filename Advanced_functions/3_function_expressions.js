@@ -4,3 +4,11 @@
 const square = function(num){
     return num * num
 }
+
+function addingNums(x,y){
+    x = square(x)
+    y = square(y)
+    return x + y
+}
+
+console.log(addingNums(2,3))
