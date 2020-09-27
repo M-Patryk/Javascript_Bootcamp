@@ -2,19 +2,24 @@
 
 // .slice() cuts an array from the given range
 let animals = [ 'shark', 'salmon', 'prawn', 'tortoise', 'giraffe', 'rhino' ];
+// tnie od indexu 0 do 3
 let swimmers = animals.slice(0, 3);
 console.log(swimmers);
+// tnie od indexu 3 do konca
 let walkers = animals.slice(3);
 console.log(walkers);
 
 // ["shark", "salmon", "prawn", "tortoise", "giraffe", "rhino"]
+//jedziemy od tylu, czyli: -1 "rhino" nie wliczamy, -2 "giraffe", -3 "tortoise", -4 "prawn"
 let fromBackwards = animals.slice(-4, -1);
 console.log(fromBackwards, 'this is with negative number');
 
-console.log('\n----------- Remove/Replace elements-----------');
-console.log(animals);
-animals.splice(1, 0, 'octopus', 'snake');
-console.log(animals, 'this is after adding octopus and snake');
+
+//["shark", "salmon", "prawn", "tortoise", "giraffe", "rhino"]
+//Adding "octopus" starting at index 1, removing 0 elements
+console.log(animals, 'asdasdas')
+animals.splice(1, 0, 'octopus');
+//after adding octopus // ["shark", "octopus", "salmon", "prawn", "tortoise", "giraffe", "rhino"]
 
 //splice
 // now removing snake ["shark", "octopus", "snake", "salmon", "prawn", "tortoise", "giraffe", "rhino"]

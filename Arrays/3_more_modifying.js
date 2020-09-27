@@ -16,24 +16,24 @@ console.log(nestedArray, 'Po zlaczeniu tablic w jedna tablice');
 nestedArray[0].push(5);
 console.log(nestedArray, 'Po dodaniu "5" na pozycje 0');
 
+// .join Turns the array into a string // w nawiasie podajemy, jak maja byc oddzielone wartosci z tablicy
+console.log(books.join())
+console.log(books.join("."))
+console.log(books.join(" "))
 
-//includes
-console.log('\n----------------Finding values------------------'); 
+//includes - finding values
 //Finding and checking value in arrays "includes" and "indexOf"
 let ingridients = [ 'water', 'milk', 'two eggs', 'sugar', 'oil', 'flour', 'butter' ];
 console.log(ingridients.includes('milk'));
-console.log(ingridients.includes('two'));
-console.log(ingridients.includes('water', 3), 'checks for value "water" after index 3');
+
+//checking for value 'water' after index 3
+console.log(ingridients.includes('water', 3));
 
 
 //Finding values -- indexOf
-console.log(ingridients.indexOf('sugar'), 'found sugar at index 3');
-console.log(ingridients.indexOf('sugar', 5), '-1 means that it didnt find value');
-
-console.log(
-	ingridients.indexOf('butter') !== -1,
-	'w tym przypadku sprawdza czy butter wystepuje, ale .includes robi to samo wiec uzywamy includes'
-);
+console.log(ingridients.indexOf('sugar'));
+//checking for index of 'sugar' after index 5. If -1 then no such an index
+console.log(ingridients.indexOf('sugar', 5));
 
 
 // .reverse Reverses array
@@ -42,7 +42,3 @@ let books = ['harry', 'potter', 'szklany', 'tron', 'dwor', 'cierni', 'roz']
 console.log(books)
 console.log(books.reverse())
 
-// .join Turns the array into a string // w nawiasie podajemy, jak maja byc oddzielone wartosci z tablicy
-console.log(books.join())
-console.log(books.join("."))
-console.log(books.join(" "))
