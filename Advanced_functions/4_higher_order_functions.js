@@ -1,3 +1,7 @@
+//Higher order functions are such a functions that 
+// -- accept other functions as arguments
+// -- return a function
+
 //Deklaracja funkcji w sposob na variable i funkcje
 function add(x, y) {
 	return x + y;
