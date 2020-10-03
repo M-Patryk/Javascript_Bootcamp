@@ -1,7 +1,7 @@
 //concat, includes, indexOf, reverse, join
 
 //Combines arrays - concat
-//Ktore jest dodowane do ktorego ma znaczenie
+//Dla pierwszego concat - vegies sa dodawane do fruits
 const fruits = [ 'apple', 'banana' ];
 const vegies = [ 'potato', 'carrot' ];
 console.log(fruits.concat(vegies));
