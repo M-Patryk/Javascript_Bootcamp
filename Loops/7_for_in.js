@@ -1,3 +1,5 @@
+//UPDATE: W arrayu wydaje indexy, a w obiekcie wydaje keys
+
 // let array1 = ['pies', 'kot','zolw','osmiornica']
 // for(item in array){
 // console.log(item)   
