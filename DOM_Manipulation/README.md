@@ -13,8 +13,8 @@ Some of the inportant properties and methods
 -- textContent
 -- innerHTML
 -- value
--- paentElement
+-- parentElement
 -- children
--- nextSibling
--- previousSibling
+-- nextElementSibling
+-- previousElementSibling
 -- style
