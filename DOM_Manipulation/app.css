@@ -28,3 +28,7 @@ input[type="password"] {
   text-decoration: line-through;
   opacity: 50%;
 }
+.smallImg{
+  height: 5em;
+  width: 5em;
+}
