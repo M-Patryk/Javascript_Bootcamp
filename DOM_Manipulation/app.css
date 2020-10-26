@@ -32,3 +32,8 @@ input[type="password"] {
   height: 5em;
   width: 5em;
 }
+
+.biggerText{
+  font-size: 20px;
+  color: rgb(207, 101, 30);
+}
