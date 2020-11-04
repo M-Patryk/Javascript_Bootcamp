@@ -20,19 +20,20 @@
     <ul id="foodItems"></ul>    //THIS IS FOR 5.js-->
 
     <form id="signup-form" action="/NOOOO" method="get">
-        <input type="text" placeholder="Credit card" id="cc">
+        <input name="creditCard" type="text" placeholder="Credit card" id="cc">
         <label>
             I agreee to sell my soul to the company
-            <input type="checkbox" id="terms">
+            <input name="termsBox" type="checkbox" id="terms">
         </label>
-        <select id="vegetables">
+        <select name="vegetables" id="vegetables">
+            <option hidden disabled selected value> -- select an option -- </option>
             <option value="carrot">Carrot</option>
             <option value="tomato">Tomato</option>
             <option value="potato">Potato</option>
         </select>
         <input type="submit">
     </form>
-    <script src="6_Form_Events_and_PreventDefault.js"></script>
+    <script src="7_Input_and_change_events.js"></script>
 </body>
 
 </html>
