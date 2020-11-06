@@ -14,7 +14,8 @@ const fakeRequest = (url) => {
 				],
 				'/about' : 'This is about page'
 			};
-			const data = pages[url];
+			const data = pages[url]; //To jest zmienna, ktora zmienia sie od podanego URL w linii 27. W przypadku kiedy podamy /about
+			//w linii 27, data bedzie miala wartosci linii 15, jesli podamy /user bedzie miala wartosc linii 5
 			if (data) {
 				resolve({ status: 200, data }); //Mozemy podac aby funkcja zwracala jakies wartosci
 			} else {
@@ -24,7 +25,7 @@ const fakeRequest = (url) => {
 	});
 };
 
-fakeRequest('/about')
+fakeRequest('/users')
 	.then((res) => { //res to jest ten obiekt w resolve i reject
 		console.log('Status Code: ', res.status); //ktore sa pozniej tutaj przyzywane
 		console.log('Data: ', res.data);
