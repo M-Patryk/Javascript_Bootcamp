@@ -25,3 +25,11 @@ Order of lessons:
 13. Asynchronous code, callbacks and promises
 14. Making HTTP requests
 15. Async and Await
+16. Async Code, Callbacks and Promises
+17. Making HTTP Requests
+18. Async & await
+19. Prototype, Classes and The New Operator
+20. Drawing Animations
+21. App Design Pattern
+22. JS with Canvas Api
+23. Secret Sharing Msg App
