@@ -4,25 +4,27 @@ class Timer {
 		this.startButton = startButton;
 		this.pauseButton = pauseButton;
 
-        this.durationInput.value = 30
+        this.durationInput.value = 5
 		this.startButton.addEventListener('click', this.start);
 		this.pauseButton.addEventListener('click', this.pause);
 	}
 	start = () => {
 		this.tick();
         this.interval = setInterval(this.tick, 1000);
-	};
-	tick = () => {
-        console.log('tick');
-        this.durationInput.value -= 1
-        if(this.durationInput.value == 0){
-            this.pause()
-            alert("Time is over!")
-        }
-	};
-	pause = () => {
+    };
+    pause = () => {
 		clearInterval(this.interval);
 	};
+	tick = () => {
+        this.timeRemaining = this.timeRemaining - 1
+        if(this.timeRemaining <= 0) this.pause()
+	};
+	get timeRemaining(){
+        return parseFloat(this.durationInput.value)
+    }
+    set timeRemaining(time){
+        this.durationInput.value = time
+    }
 }
 
 const durationInput = document.querySelector('#duration');
