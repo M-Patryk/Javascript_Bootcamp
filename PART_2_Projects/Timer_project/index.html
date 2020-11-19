@@ -6,6 +6,18 @@
     <title>Document</title>
 </head>
 <body>
+    <svg width = "200" height = "200">
+        <circle 
+            r = "90" 
+            cx = "100" 
+            cy = "100" 
+            fill = "transparent"
+            stroke = "black"
+            stroke-width = "10"
+            stroke-dasharray = "563"
+            stroke-dashoffset = "10"
+            />
+    </svg><br>
     <input type="text" id="duration" value="3">
     <button id="start">Start</button>
     <button id="pause">Pause</button>
@@ -13,3 +25,9 @@
     <script src="app.js"></script>
 </body>
 </html>
+
+<!--fill - wypelnienie
+    stroke -  pierscien
+    stroke-width - grubosc pierscienia
+    stroke-dasharray - kreski zamiast calego pierscienia. value obliczamy z obwodu kola (2piR)
+    stroke-dashoffset - jesli pierscien nie jest pelny to ta wlasciwosc zwieksza odstep-->
